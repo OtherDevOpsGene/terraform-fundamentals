@@ -19,8 +19,7 @@ resource "aws_instance" "hello_world" {
   instance_type = "t4g.nano"
 
   tags = {
-    Name    = "hello_world"
-    Owner   = "otherdevopsgene@portinfo.com"
-    Student = "student@otherdevopsgene.dev"
+    Name  = "hello_world"
+    Owner = "otherdevopsgene@portinfo.com"
   }
 }
