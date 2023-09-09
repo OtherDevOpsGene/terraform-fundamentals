@@ -1,10 +1,22 @@
+# Lesson 03- Simple module
+
+Exercises to begin writing Terraform code with modules.
+- Module basics
+- for_each meta-argument
+- Terraform Registry
+- Heredocs
+- Remote state
+- Workspaces
+- Drift
+- Provisioners
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.5.6 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 5.11.0 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 5.15.0 |
 
 ## Providers
 
