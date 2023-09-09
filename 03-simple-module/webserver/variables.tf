@@ -5,5 +5,5 @@ variable "instance_type" {
 
 variable "tags" {
   description = "Tags to apply to the webserver."
-  type        = map
+  type        = map(any)
 }
