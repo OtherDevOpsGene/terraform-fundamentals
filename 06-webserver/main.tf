@@ -16,7 +16,9 @@ module "www" {
   }
 }
 
-output "private_ip" {
-  description = "Private IP addresses for the webserver instances."
-  value       = values(module.www)[*].webserver_private_ip
+output "private_ips" {
+  description = "Private IP addresses by instance."
+  value = {
+    for az in keys(module.www) : az => module.www[az].webserver_private_ip
+  }
 }
