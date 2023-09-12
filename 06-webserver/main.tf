@@ -3,7 +3,7 @@ data "aws_availability_zones" "available" {
 }
 
 module "www" {
-  source = "./webserver"
+  source = "./modules/webserver"
 
   for_each          = toset(data.aws_availability_zones.available.names)
   availability_zone = each.key

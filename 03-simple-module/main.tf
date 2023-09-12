@@ -1,5 +1,5 @@
 module "www" {
-  source = "./webserver"
+  source = "./modules/webserver"
 
   instance_type = "t4g.nano"
 

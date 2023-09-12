@@ -27,6 +27,8 @@ data "aws_ami" "ubuntu_focal" {
 }
 
 resource "aws_instance" "webserver" {
+  count = var.instance_type ? 1 : 0
+
   ami           = data.aws_ami.ubuntu_focal.id
   instance_type = var.instance_type
 
