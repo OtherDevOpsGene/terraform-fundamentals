@@ -14,7 +14,7 @@ resource "aws_instance" "webserver" {
 
   tags = {
     Name  = "webserver-${count.index}"
-    Owner = "otherdevopsgene@portinfo.com"
+    Owner = "gene@otherdevopsgene.dev"
     Class = "Terraform Fundamentals"
   }
 }

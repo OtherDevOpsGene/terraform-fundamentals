@@ -20,6 +20,6 @@ resource "aws_instance" "hello_world" {
 
   tags = {
     Name  = "hello_world"
-    Owner = "otherdevopsgene@portinfo.com"
+    Owner = "gene@otherdevopsgene.dev"
   }
 }
