@@ -15,8 +15,8 @@ Exercises to begin writing Terraform code with modules.
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.5.6 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 5.16.1 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.6.2 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 5.23.1 |
 
 ## Providers
 
