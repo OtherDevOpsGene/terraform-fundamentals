@@ -1,6 +1,6 @@
 output "webserver_private_ip" {
   description = "Private IP address of the webserver instance."
-  value       = aws_instance.webserver.public_ip
+  value       = aws_instance.webserver.private_ip
 }
 
 output "webserver_az" {
