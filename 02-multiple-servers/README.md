@@ -18,13 +18,13 @@ Some guided exercises to get familiar with:
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.6.2 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 5.23.1 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 5.25.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 5.23.1 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 5.25.0 |
 
 ## Modules
 
