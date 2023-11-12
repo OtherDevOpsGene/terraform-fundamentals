@@ -6,7 +6,7 @@ Exercise to learn how to import resources to Terraform management.
 
 ## Exercise - Import block
 
-- Create a new directory
+- Use directory `08-import`
 - Every student has an S3 bucket named `tf-YYYYMM-username`
 - Import it 
 - Examine the state to verify it is managed

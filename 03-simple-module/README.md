@@ -2,7 +2,7 @@
 
 Exercises to begin writing Terraform code with modules.
 - Module basics
-- for_each meta-argument
+- `for_each` meta-argument
 - Dynamic blocks
 - Drift
 - Tainting a resource
