@@ -6,6 +6,15 @@ Some simple exercises to get used to:
 - Idempotency
 - Terraform configuration language
 
+## Exercise - Update AWS instance
+
+- Make sure the AWS EC2 instance is EBS optimized
+- Enable detailed monitoring
+- Add a tag for the Class (capital-C), `Terraform Fundamentals`
+- Apply the changes
+- **Stretch:** Require Instance Metadata Service Version 2 (IMDSv2)
+
+Hint: Booleans do not get quoted.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements

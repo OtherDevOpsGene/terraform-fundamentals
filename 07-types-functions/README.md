@@ -1,3 +1,27 @@
+# Lesson 07- Types and Functions
+
+Exercises dealing with variable type and built-in functions.
+- Types
+- Built-in functions
+- `terraform console`
+
+## Exercise - Types and values
+
+- Switch to the `07-types-functions` directory
+- Apply the configuration (all data sources)
+- Examine the output, the types are at the end of the output name
+
+## Exercise - terraform console
+
+- Use the `terraform console` to experiment with state values
+- Look up the entire return from the `aws_instance.cloud9` data source
+- Look at these special values: `path.module`, `path.root`, `terraform.workspace`
+- Use the `lookup()` function to find the value of the Name tag
+- Suggested functions to try: `lower()`, `format()`, `coalesce()`, `jsonencode()`
+- **Stretch:** Use functions to find 90 minutes from now, in RFC-822 format
+- **Stretch:** `data.aws_instance.cloud9.metadata_options` shows whether IPv6 is enabled. Determine how to reference it.
+
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 

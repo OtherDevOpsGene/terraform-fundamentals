@@ -1,3 +1,19 @@
+# Lesson 06- webserver
+
+Exercise to practice with multiple environments.
+- Workspaces
+
+## Exercise - Multiple environments
+
+- Directory `06-webserver` is pretty much `03-simple-module`
+- Add a variable and tag called `Environment`
+- Use workspaces to stand up a `dev` environment
+- Use workspaces to stand up a `prod` environment
+- Confirm that each environment has different private IP addresses
+- Tear down the `dev` environment, leaving `prod` running
+  - Workspace and resources
+
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 

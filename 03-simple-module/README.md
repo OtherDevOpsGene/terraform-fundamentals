@@ -3,12 +3,42 @@
 Exercises to begin writing Terraform code with modules.
 - Module basics
 - for_each meta-argument
-- Terraform Registry
-- Heredocs
-- Remote state
-- Workspaces
+- Dynamic blocks
 - Drift
-- Provisioners
+- Tainting a resource
+
+## Exercise - Double
+
+- Change the code to produce two webservers
+- Make sure the servers are named appropriately (not identically)
+- No other changes
+- Apply or plan the changes
+- Observe the plan, make note of any unexpected behavior
+- *Hint:* The module does not need any changes
+
+## Exercise  Availability zones
+
+- Define a local value with a list: `["us-east-2a", "us-east-2c"]`
+- Add an input variable to the module for availability zone
+  - The module **does** change this time 
+- Redeploy so one server is in `us-east-2a`, the other in `us-east-2c`
+
+## Exercise - for_each
+
+- Comment out the private IP address output value for now
+- Use `for_each` to deploy to `us-east-2a` and `us-east-2c`
+- Redeploy, watching the plan
+- Add `us-east-2b`
+- Redeploy, watching the plan
+- **Stretch:** Replace local value with data source
+- **Bigger stretch:** Fix the output value to work
+
+## Exercise - Keep instances running
+
+- Change the `webserver` module to add the state as `running`
+- Use the `aws_ec2_instance_state` resource
+- `Apply` to add the state, but it may take a second `apply` to see results
+
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
